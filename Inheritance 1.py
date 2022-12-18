@@ -1,5 +1,9 @@
 # Object of a Class
 
+# __init__ is a constructor. It is used to initialize the object of a class.
+# self is a keyword which is used to refer to the current object of a class.
+
+
 class A:
     def __init__(self):
         print("I am in A init")
@@ -27,3 +31,19 @@ a1.feature2()
 b1 = B()
 b1.feature1()
 b1.feature4()
+
+class C(B):
+    def __init__(self):
+        super().__init__()
+        print("I am in C init")
+        
+c1 = C()
+
+class D(A,C):
+    def __init__(self):
+        super().__init__()
+        print("I am in D init")
+        
+d1 = D()
+    
+
