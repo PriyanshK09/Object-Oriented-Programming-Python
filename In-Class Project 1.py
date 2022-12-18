@@ -21,4 +21,3 @@ obj3 = Bus1()
 print(obj1.seating_capacity())
 print(obj2.seating_capacity())
 print(obj3.seating_capacity())
-    
