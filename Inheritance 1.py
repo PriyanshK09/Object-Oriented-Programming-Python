@@ -3,6 +3,17 @@
 # __init__ is a constructor. It is used to initialize the object of a class.
 # self is a keyword which is used to refer to the current object of a class.
 
+# Inheritance is a process of creating a new class from an existing class.
+# Super Class: The class from which we are inheriting is called Super Class.
+# Sub Class: The class which is inheriting is called Sub Class.
+
+# There are two types of Inheritance:
+# 1. Single Inheritance
+# 2. Multiple Inheritance
+
+# Single Inheritance : When a class inherits from only one class, it is called Single Inheritance.
+# Multiple Inheritance : When a class inherits from more than one class, it is called Multiple Inheritance.
+
 
 class A:
     def __init__(self):
